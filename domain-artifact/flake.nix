@@ -34,7 +34,7 @@
     pythoneda-shared-pythoneda-banner = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixos.follows = "nixos";
-      url = "github:pythoneda-shared-pythoneda/banner/0.0.2";
+      url = "github:pythoneda-shared-pythoneda/banner/0.0.6";
     };
     pythoneda-shared-pythoneda-domain = {
       inputs.flake-utils.follows = "flake-utils";
@@ -42,7 +42,7 @@
       inputs.pythoneda-shared-pythoneda-banner.follows =
         "pythoneda-shared-pythoneda-banner";
       url =
-        "github:pythoneda-shared-pythoneda/domain-artifact/0.0.5?dir=domain";
+        "github:pythoneda-shared-pythoneda/domain-artifact/0.0.6?dir=domain";
     };
   };
   outputs = inputs:
@@ -51,8 +51,7 @@
       let
         org = "pythoneda-shared-pythoneda";
         repo = "domain-artifact";
-        version =
-          pythoneda-shared-pythoneda-domain.packages.${system}.default.version;
+        version = "0.0.6";
         sha256 = "sha256-rdv4RIVS7KDTBvAaTb9t9XQmBZxc+T9SeavfnbXI1c8=";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.artifact";
