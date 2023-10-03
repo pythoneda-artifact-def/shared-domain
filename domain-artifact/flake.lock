@@ -395,17 +395,17 @@
       },
       "locked": {
         "dir": "domain",
-        "lastModified": 1696261366,
-        "narHash": "sha256-egouhnZ7XSdZdWvG+Tcgx9+zOXcTL4cczgBBQ8L5hJc=",
+        "lastModified": 1696310957,
+        "narHash": "sha256-6ymniocqmUD44CFGhjQ+aLSv3TFZlP+GtmZM6bRTcYI=",
         "owner": "pythoneda-shared-pythoneda",
         "repo": "domain-artifact",
-        "rev": "71d4623f30c3d73b48438649be2210cb1a3b5781",
+        "rev": "955116ec1f4a740704545e3acb432b9180eb8c3a",
         "type": "github"
       },
       "original": {
         "dir": "domain",
         "owner": "pythoneda-shared-pythoneda",
-        "ref": "0.0.4",
+        "ref": "0.0.5",
         "repo": "domain-artifact",
         "type": "github"
       }
