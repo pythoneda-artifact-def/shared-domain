@@ -29,7 +29,7 @@
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
       url =
-        "github:pythoneda-shared-artifact-changes/events-artifact/0.0.2?dir=events";
+        "github:pythoneda-shared-artifact-changes/events-artifact/0.0.3?dir=events";
     };
     pythoneda-shared-pythoneda-banner = {
       inputs.flake-utils.follows = "flake-utils";
