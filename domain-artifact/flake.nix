@@ -58,25 +58,13 @@
         "github:pythoneda-shared-pythoneda/domain-artifact/0.0.7?dir=domain";
     };
     # unneeded transitive dependencies, but needed to pin pythoneda-shared-git-shared
-    INDIRECT-pythoneda-shared-artifact-changes-shared = {
-      inputs.flake-utils.follows = "flake-utils";
-      inputs.nixos.follows = "nixos";
-      inputs.pythoneda-shared-nix-flake-shared.follows =
-        "INDIRECT-pythoneda-shared-nix-flake-shared";
-      inputs.pythoneda-shared-pythoneda-banner.follows =
-        "pythoneda-shared-pythoneda-banner";
-      inputs.pythoneda-shared-pythoneda-domain.follows =
-        "pythoneda-shared-pythoneda-domain";
-      url =
-        "github:pythoneda-shared-artifact-changes/shared-artifact/0.0.2?dir=shared";
-    };
     INDIRECT-pythoneda-shared-code-requests-events = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixos.follows = "nixos";
       inputs.pythoneda-shared-code-requests-shared.follows =
         "INDIRECT-pythoneda-shared-code-requests-shared";
       inputs.pythoneda-shared-nix-flake-shared.follows =
-        "INDIRECT-pythoneda-shared-nix-flake-shared";
+        "INDIRECT-INDIRECT-pythoneda-shared-nix-flake-shared";
       inputs.pythoneda-shared-pythoneda-banner.follows =
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
@@ -88,7 +76,7 @@
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixos.follows = "nixos";
       inputs.pythoneda-shared-nix-flake-shared.follows =
-        "INDIRECT-pythoneda-shared-nix-flake-shared";
+        "INDIRECT-INDIRECT-pythoneda-shared-nix-flake-shared";
       inputs.pythoneda-shared-pythoneda-banner.follows =
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
@@ -96,7 +84,7 @@
       url =
         "github:pythoneda-shared-code-requests/shared-artifact/0.0.2?dir=shared";
     };
-    INDIRECT-pythoneda-shared-nix-flake-shared = {
+    INDIRECT-INDIRECT-pythoneda-shared-nix-flake-shared = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixos.follows = "nixos";
       inputs.pythoneda-shared-git-shared.follows =
