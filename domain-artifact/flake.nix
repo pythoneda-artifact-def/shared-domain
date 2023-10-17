@@ -47,7 +47,7 @@
     pythoneda-shared-pythoneda-banner = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixos.follows = "nixos";
-      url = "github:pythoneda-shared-pythoneda/banner/0.0.6";
+      url = "github:pythoneda-shared-pythoneda/banner/0.0.8";
     };
     pythoneda-shared-pythoneda-domain = {
       inputs.flake-utils.follows = "flake-utils";
@@ -199,6 +199,9 @@
             pythoneda-shared-pythoneda-domain-artifact-python311;
           pythoneda-shared-pythoneda-domain-artifact-python38 =
             shared.devShell-for {
+              banner = "${
+                  pythoneda-shared-pythoneda-banner.packages.${system}.pythoneda-shared-pythoneda-banner-python38
+                }/bin/banner.sh";
               package =
                 packages.pythoneda-shared-pythoneda-domain-artifact-python38;
               python = pkgs.python38;
@@ -210,6 +213,9 @@
             };
           pythoneda-shared-pythoneda-domain-artifact-python39 =
             shared.devShell-for {
+              banner = "${
+                  pythoneda-shared-pythoneda-banner.packages.${system}.pythoneda-shared-pythoneda-banner-python39
+                }/bin/banner.sh";
               package =
                 packages.pythoneda-shared-pythoneda-domain-artifact-python39;
               python = pkgs.python39;
@@ -221,6 +227,9 @@
             };
           pythoneda-shared-pythoneda-domain-artifact-python310 =
             shared.devShell-for {
+              banner = "${
+                  pythoneda-shared-pythoneda-banner.packages.${system}.pythoneda-shared-pythoneda-banner-python310
+                }/bin/banner.sh";
               package =
                 packages.pythoneda-shared-pythoneda-domain-artifact-python310;
               python = pkgs.python310;
@@ -232,6 +241,9 @@
             };
           pythoneda-shared-pythoneda-domain-artifact-python311 =
             shared.devShell-for {
+              banner = "${
+                  pythoneda-shared-pythoneda-banner.packages.${system}.pythoneda-shared-pythoneda-banner-python311
+                }/bin/banner.sh";
               package =
                 packages.pythoneda-shared-pythoneda-domain-artifact-python311;
               python = pkgs.python311;
