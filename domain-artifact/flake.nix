@@ -47,7 +47,7 @@
     pythoneda-shared-pythoneda-banner = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixos.follows = "nixos";
-      url = "github:pythoneda-shared-pythoneda/banner/0.0.8";
+      url = "github:pythoneda-shared-pythoneda/banner/0.0.13";
     };
     pythoneda-shared-pythoneda-domain = {
       inputs.flake-utils.follows = "flake-utils";
@@ -55,7 +55,7 @@
       inputs.pythoneda-shared-pythoneda-banner.follows =
         "pythoneda-shared-pythoneda-banner";
       url =
-        "github:pythoneda-shared-pythoneda/domain-artifact/0.0.7?dir=domain";
+        "github:pythoneda-shared-pythoneda/domain-artifact/0.0.9?dir=domain";
     };
     # unneeded transitive dependencies, but needed to pin pythoneda-shared-git-shared
     INDIRECT-pythoneda-shared-code-requests-events = {
