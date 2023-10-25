@@ -33,7 +33,7 @@
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
       url =
-        "github:pythoneda-shared-artifact-changes/events-artifact/0.0.3?dir=events";
+        "github:pythoneda-shared-artifact-changes/events-artifact/0.0.4?dir=events";
     };
     pythoneda-shared-git-shared = {
       inputs.flake-utils.follows = "flake-utils";
@@ -42,7 +42,7 @@
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
-      url = "github:pythoneda-shared-git/shared-artifact/0.0.3?dir=shared";
+      url = "github:pythoneda-shared-git/shared-artifact/0.0.4?dir=shared";
     };
     pythoneda-shared-pythoneda-banner = {
       inputs.flake-utils.follows = "flake-utils";
@@ -55,7 +55,7 @@
       inputs.pythoneda-shared-pythoneda-banner.follows =
         "pythoneda-shared-pythoneda-banner";
       url =
-        "github:pythoneda-shared-pythoneda/domain-artifact/0.0.9?dir=domain";
+        "github:pythoneda-shared-pythoneda/domain-artifact/0.0.12?dir=domain";
     };
     # unneeded transitive dependencies, but needed to pin pythoneda-shared-git-shared
     INDIRECT-pythoneda-shared-code-requests-events = {
@@ -103,8 +103,8 @@
       let
         org = "pythoneda-shared-pythoneda";
         repo = "domain-artifact";
-        version = "0.0.9";
-        sha256 = "sha256-ZHMRULealTkoRHDiKI6DIhXKFQJHnfA9SHS4CTC9fCE=";
+        version = "0.0.12";
+        sha256 = "12himalain5r72zpjzh1lqvwpjwx5pdipyr5bdrd0x6dy6985s53";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.artifact";
         pkgs = import nixos { inherit system; };
@@ -117,7 +117,8 @@
         space = "A";
         layer = "D";
         nixosVersion = builtins.readFile "${nixos}/.version";
-        nixpkgsRelease = "nixos-${nixosVersion}";
+        nixpkgsRelease =
+          builtins.replaceStrings [ "\n" ] [ "" ] "nixos-${nixosVersion}";
         shared = import "${pythoneda-shared-pythoneda-banner}/nix/shared.nix";
         pythoneda-shared-pythoneda-domain-artifact-for = { python
           , pythoneda-shared-artifact-changes-events
