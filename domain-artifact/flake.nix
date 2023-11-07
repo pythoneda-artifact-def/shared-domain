@@ -26,9 +26,6 @@
       inputs.nixos.follows = "nixos";
       inputs.pythoneda-shared-artifact-changes-events.follows =
         "pythoneda-shared-artifact-changes-events";
-      inputs.pythoneda-shared-artifact-changes-shared.follows =
-        "pythoneda-shared-artifact-changes-shared";
-      inputs.pythoneda-shared-git.follows = "pythoneda-shared-git-shared";
       inputs.pythoneda-shared-pythoneda-banner.follows =
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
@@ -40,6 +37,10 @@
       inputs.nixos.follows = "nixos";
       inputs.pythoneda-shared-code-requests-events.follows =
         "INDIRECT-pythoneda-shared-code-requests-events";
+      inputs.pythoneda-shared-code-requests-shared.follows =
+        "INDIRECT-pythoneda-shared-code-requests-shared";
+      inputs.pythoneda-shared-artifact-changes-shared.follows =
+        "pythoneda-shared-artifact-changes-shared";
       inputs.pythoneda-shared-pythoneda-banner.follows =
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
@@ -89,7 +90,7 @@
       inputs.pythoneda-shared-pythoneda-banner.follows =
         "pythoneda-shared-pythoneda-banner";
       url =
-        "github:pythoneda-shared-pythoneda/domain-artifact/0.0.12?dir=domain";
+        "github:pythoneda-shared-pythoneda/domain-artifact/0.0.13?dir=domain";
     };
     # unneeded transitive dependencies, but needed to pin pythoneda-shared-git-shared
     INDIRECT-pythoneda-shared-code-requests-events = {
@@ -125,8 +126,8 @@
       let
         org = "pythoneda-shared-pythoneda";
         repo = "domain-artifact";
-        version = "0.0.12";
-        sha256 = "12himalain5r72zpjzh1lqvwpjwx5pdipyr5bdrd0x6dy6985s53";
+        version = "0.0.13";
+        sha256 = "1sgbxpx1y2gz5bxvkskh21x2qclvncyniln9yb90q33njcjgx3bk";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.artifact";
         pkgs = import nixos { inherit system; };
