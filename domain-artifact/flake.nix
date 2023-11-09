@@ -71,7 +71,7 @@
       inputs.pythoneda-shared-pythoneda-banner.follows =
         "pythoneda-shared-pythoneda-banner";
       url =
-        "github:pythoneda-shared-pythoneda/domain-artifact/0.0.13?dir=domain";
+        "github:pythoneda-shared-pythoneda/domain-artifact/0.0.14?dir=domain";
     };
   };
   outputs = inputs:
@@ -80,8 +80,8 @@
       let
         org = "pythoneda-shared-pythoneda";
         repo = "domain-artifact";
-        version = "0.0.13";
-        sha256 = "1sgbxpx1y2gz5bxvkskh21x2qclvncyniln9yb90q33njcjgx3bk";
+        version = "0.0.14";
+        sha256 = "10zr9aplr2nhjjs60fbz40fydcvcr8365y8q110gzg0qwjy73agb";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.artifact";
         pkgs = import nixos { inherit system; };
