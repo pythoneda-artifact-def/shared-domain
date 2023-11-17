@@ -28,7 +28,7 @@
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
-      url = "github:pythoneda-shared-artifact/shared-artifact/0.0.6?dir=shared";
+      url = "github:pythoneda-shared-artifact/shared-artifact/0.0.8?dir=shared";
     };
     pythoneda-shared-artifact-events = {
       inputs.flake-utils.follows = "flake-utils";
@@ -37,7 +37,7 @@
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
-      url = "github:pythoneda-shared-artifact/events-artifact/0.0.6?dir=events";
+      url = "github:pythoneda-shared-artifact/events-artifact/0.0.7?dir=events";
     };
     pythoneda-shared-git-shared = {
       inputs.flake-utils.follows = "flake-utils";
@@ -46,7 +46,7 @@
         "pythoneda-shared-pythoneda-banner";
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
-      url = "github:pythoneda-shared-git/shared-artifact/0.0.4?dir=shared";
+      url = "github:pythoneda-shared-git/shared-artifact/0.0.5?dir=shared";
     };
     pythoneda-shared-nix-flake-shared = {
       inputs.flake-utils.follows = "flake-utils";
@@ -58,12 +58,12 @@
       inputs.pythoneda-shared-pythoneda-domain.follows =
         "pythoneda-shared-pythoneda-domain";
       url =
-        "github:pythoneda-shared-nix-flake/shared-artifact/0.0.5?dir=shared";
+        "github:pythoneda-shared-nix-flake/shared-artifact/0.0.7?dir=shared";
     };
     pythoneda-shared-pythoneda-banner = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixos.follows = "nixos";
-      url = "github:pythoneda-shared-pythoneda/banner/0.0.13";
+      url = "github:pythoneda-shared-pythoneda/banner/0.0.25";
     };
     pythoneda-shared-pythoneda-domain = {
       inputs.flake-utils.follows = "flake-utils";
@@ -71,7 +71,7 @@
       inputs.pythoneda-shared-pythoneda-banner.follows =
         "pythoneda-shared-pythoneda-banner";
       url =
-        "github:pythoneda-shared-pythoneda/domain-artifact/0.0.14?dir=domain";
+        "github:pythoneda-shared-pythoneda/domain-artifact/0.0.16?dir=domain";
     };
   };
   outputs = inputs:
@@ -80,8 +80,8 @@
       let
         org = "pythoneda-shared-pythoneda";
         repo = "domain-artifact";
-        version = "0.0.14";
-        sha256 = "10zr9aplr2nhjjs60fbz40fydcvcr8365y8q110gzg0qwjy73agb";
+        version = "0.0.16";
+        sha256 = "1ifyjwp9g8ih59xl89i9f27vmmy1p4gfvzsprv9v5n7ph95nnjl0";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.artifact";
         pkgs = import nixos { inherit system; };
