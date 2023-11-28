@@ -28,6 +28,7 @@ packages = [{include = "@package@"}]
 [tool.poetry.dependencies]
 python = "^@pythonMajorMinorVersion@"
 pythoneda-shared-artifact-artifact-events = "^@pythonedaSharedArtifactArtifactEvents@"
+pythoneda-shared-artifact-artifact-shared = "^@pythonedaSharedArtifactArtifactShared@"
 pythoneda-shared-artifact-events = "^@pythonedaSharedArtifactEvents@"
 pythoneda-shared-artifact-shared = "^@pythonedaSharedArtifactShared@"
 pythoneda-shared-git-shared = "^@pythonedaSharedGitShared@"
