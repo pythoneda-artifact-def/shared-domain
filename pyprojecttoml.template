@@ -1,8 +1,8 @@
 # pyprojecttoml.template
 #
-# This file is the template for pythoneda-shared-pythoneda-artifact/domain's pyproject.toml
+# This file is the template for pythoneda-shared-artifact/domain's pyproject.toml
 #
-# Copyright (C) 2023-today rydnr's pythoneda-shared-pythoneda-artifact-def/domain
+# Copyright (C) 2023-today rydnr's pythoneda-shared-artifact-def/domain
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -33,7 +33,7 @@ pythoneda-shared-artifact-events = "^@pythonedaSharedArtifactEvents@"
 pythoneda-shared-artifact-shared = "^@pythonedaSharedArtifactShared@"
 pythoneda-shared-git-shared = "^@pythonedaSharedGitShared@"
 pythoneda-shared-nix-flake-shared = "^@pythonedaSharedNixFlakeShared@"
-pythoneda-shared-pythoneda-domain = "^@pythonedaSharedPythonedaDomain@"
+pythoneda-shared-domain = "^@pythonedaSharedDomain@"
 
 [build-system]
 requires = ["poetry-core"]
