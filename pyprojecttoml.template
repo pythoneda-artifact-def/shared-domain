@@ -27,12 +27,15 @@ packages = [{include = "@package@"}]
 
 [tool.poetry.dependencies]
 python = "^@pythonMajorMinorVersion@"
+pythoneda-external-artf-flakeutils = "^@pythonedaExternalArtfFlakeutils@"
+pythoneda-external-artf-nixpkgs = "^@pythonedaExternalArtfNixpkgs@"
 pythoneda-shared-artifact-artifact-events = "^@pythonedaSharedArtifactArtifactEvents@"
 pythoneda-shared-artifact-artifact-shared = "^@pythonedaSharedArtifactArtifactShared@"
 pythoneda-shared-artifact-events = "^@pythonedaSharedArtifactEvents@"
 pythoneda-shared-artifact-shared = "^@pythonedaSharedArtifactShared@"
 pythoneda-shared-git-shared = "^@pythonedaSharedGitShared@"
 pythoneda-shared-nix-flake-shared = "^@pythonedaSharedNixFlakeShared@"
+pythoneda-shared-pythonlang-artf-banner = "^@pythonedaSharedPythonlangArtfBanner@"
 pythoneda-shared-pythonlang-domain = "^@pythonedaSharedPythonlangDomain@"
 
 [build-system]
