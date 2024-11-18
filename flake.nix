@@ -41,7 +41,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-external-artf-def/nixpkgs/0.0.4";
+      url = "github:pythoneda-external-artf-def/nixpkgs/0.0.5";
     };
     pythoneda-shared-artifact-artifact-events = {
       inputs.flake-utils.follows = "flake-utils";
@@ -112,7 +112,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-pythonlang-artf-def/banner/0.0.1";
+      url = "github:pythoneda-shared-pythonlang-artf-def/banner/0.0.2";
     };
     pythoneda-shared-pythonlang-banner = {
       inputs.flake-utils.follows = "flake-utils";
