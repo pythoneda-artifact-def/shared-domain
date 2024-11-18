@@ -51,16 +51,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1731750409,
-        "narHash": "sha256-tKz/7XuwugW4W2dXV8NRb9gkN2+7HaNtz122eAZVdTM=",
+        "lastModified": 1731927762,
+        "narHash": "sha256-61aTXpVVFVQtZE8CJ3QBW9qxtPH9tnI0399ZXFJoPVo=",
         "owner": "pythoneda-external-artf-def",
         "repo": "flakeutils",
-        "rev": "b8f8dbb8a989edce8cb248c88a740518313e38c0",
+        "rev": "9e4b577fd1e1523c9d4bc355af5379eabdb9af76",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-external-artf-def",
-        "ref": "0.0.5",
+        "ref": "0.0.6",
         "repo": "flakeutils",
         "type": "github"
       }
