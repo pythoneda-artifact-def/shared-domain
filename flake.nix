@@ -17,7 +17,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 {
-  description = "Artifact space of pythoneda-shared-pythonlang/domain";
+  description = "Nix flake for pythoneda-shared-pythonlang-artf/domain";
   inputs = rec {
     flake-utils.url = "github:numtide/flake-utils/v1.0.0";
     nixos.url = "github:NixOS/nixpkgs/24.05";
@@ -136,7 +136,7 @@
         version = "0.0.24";
         sha256 = "09sz7bsdxzl4qrgqfc0sywl3xrvj2frdj9m67zg1wkpx2bqbifdn";
         pname = "${org}-${repo}";
-        pythonpackage = "pythoneda.artifact.shared.domain";
+        pythonpackage = "pythoneda.artifact.shared";
         pkgs = import nixos { inherit system; };
         description = "Artifact scope of pythoneda-shared-pythonlang/domain";
         license = pkgs.lib.licenses.gpl3;
