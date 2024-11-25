@@ -115,16 +115,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1732348261,
-        "narHash": "sha256-TvlhOkjT5cnH9QDGQXdxTorsDkQUYdQiln8taboDRcA=",
+        "lastModified": 1732562070,
+        "narHash": "sha256-9Fi+CszBJwkJtZcJP8uKThqFsnPq3pXNL+EsF+FHv5w=",
         "owner": "pythoneda-shared-artifact-def",
         "repo": "artifact-events",
-        "rev": "34ee95b8f6ffcc168867da96dc72619c7b13782c",
+        "rev": "4938a3177bac58dfb5ae3a98a493011a058e86b1",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-artifact-def",
-        "ref": "0.0.56",
+        "ref": "0.0.57",
         "repo": "artifact-events",
         "type": "github"
       }
@@ -150,16 +150,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1732348261,
-        "narHash": "sha256-TvlhOkjT5cnH9QDGQXdxTorsDkQUYdQiln8taboDRcA=",
+        "lastModified": 1732562070,
+        "narHash": "sha256-9Fi+CszBJwkJtZcJP8uKThqFsnPq3pXNL+EsF+FHv5w=",
         "owner": "pythoneda-shared-artifact-def",
         "repo": "artifact-events",
-        "rev": "34ee95b8f6ffcc168867da96dc72619c7b13782c",
+        "rev": "4938a3177bac58dfb5ae3a98a493011a058e86b1",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-artifact-def",
-        "ref": "0.0.56",
+        "ref": "0.0.57",
         "repo": "artifact-events",
         "type": "github"
       }
@@ -183,16 +183,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1732348718,
-        "narHash": "sha256-gz+hML3UG46khXDYNNGijSk5Cnjrnv0zB/yBFqw0TQo=",
+        "lastModified": 1732562361,
+        "narHash": "sha256-nDfqDe9UnrvHHCL2z4h/WZqGg14fv9pWi3d3wYVZFgU=",
         "owner": "pythoneda-shared-artifact-def",
         "repo": "artifact-shared",
-        "rev": "f9fd7c3d91434c35b36fea2a11a88105b31cf820",
+        "rev": "07ade91adc0e51104c940fc03c9600e837e3800b",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-artifact-def",
-        "ref": "0.0.59",
+        "ref": "0.0.60",
         "repo": "artifact-shared",
         "type": "github"
       }
