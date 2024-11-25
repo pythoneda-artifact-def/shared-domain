@@ -133,8 +133,8 @@
       let
         org = "pythoneda-shared-pythonlang-artf";
         repo = "domain";
-        version = "0.0.24";
-        sha256 = "09sz7bsdxzl4qrgqfc0sywl3xrvj2frdj9m67zg1wkpx2bqbifdn";
+        version = "0.0.25";
+        sha256 = "1vwh13xfx2y949773zc3az3w60nbp7481w8fh47dd610ch8c2gsb";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.artifact.shared";
         pkgs = import nixos { inherit system; };
