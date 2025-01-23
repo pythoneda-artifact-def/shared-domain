@@ -30,7 +30,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-external-artf-def/flakeutils/0.0.34";
+      url = "github:pythoneda-external-artf-def/flakeutils/0.0.35";
     };
     pythoneda-external-artf-nixpkgs = {
       inputs.flake-utils.follows = "flake-utils";
@@ -41,7 +41,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-external-artf-def/nixpkgs/0.0.32";
+      url = "github:pythoneda-external-artf-def/nixpkgs/0.0.33";
     };
     pythoneda-shared-artifact-artifact-events = {
       inputs.flake-utils.follows = "flake-utils";
@@ -59,7 +59,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-artifact-def/artifact-shared/0.0.91";
+      url = "github:pythoneda-shared-artifact-def/artifact-shared/0.0.92";
     };
     pythoneda-shared-artifact-events = {
       inputs.flake-utils.follows = "flake-utils";
@@ -77,7 +77,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-artifact-def/shared/0.0.102";
+      url = "github:pythoneda-shared-artifact-def/shared/0.0.103";
     };
     pythoneda-shared-git-shared = {
       inputs.flake-utils.follows = "flake-utils";
@@ -97,7 +97,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-nix-flake-def/shared/0.0.99";
+      url = "github:pythoneda-shared-nix-flake-def/shared/0.0.100";
     };
     pythoneda-shared-pythonlang-artf-banner = {
       inputs.flake-utils.follows = "flake-utils";
@@ -112,7 +112,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-pythonlang-artf-def/banner/0.0.25";
+      url = "github:pythoneda-shared-pythonlang-artf-def/banner/0.0.26";
     };
     pythoneda-shared-pythonlang-banner = {
       inputs.flake-utils.follows = "flake-utils";
